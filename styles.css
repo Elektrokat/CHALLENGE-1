@@ -99,6 +99,8 @@ svg{
     font-family: 'Montserrat', sans-serif;
     font-size: 11px; 
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
 .attribution a{
@@ -111,26 +113,21 @@ svg{
     text-decoration: underline;
 }
 
-                                        /* mobile view */
+                            /* mobile view */
 
 @media screen and (max-width: 375px) {
 
-    body{
-        width: 100%;
-        height: 100vh;
-    }
-
     .perfume-image{
         width: 100%;
-        height: 285px;
+        height: 250px;
         border-radius: 5px 5px 0 0;
     }
 
     .my-perfume{
-        padding: 20px;
+        padding: 10px;
         width: 100%;
-        height: auto;
-        display: block
+        height: 100vh;
+        display: block;
     }
 
     .perfume-content{
@@ -138,7 +135,7 @@ svg{
         border-radius: 0 0 5px 5px;
         padding: 25px;
         width: 100%;
-        height: 338px;
+        height: 360px;
     }
 
     .second{
@@ -163,18 +160,12 @@ svg{
         position: absolute;
         left: 30%;
     }
-    
 }
+
 
                                         /* desktop view */
 
-@media screen and (max-width: 1440px) {
-
-    body{
-    background-color: hsl(30, 38%, 92%);
-    width: 100%;
-    height: 100vh;
-}
+@media screen and (min-width: 376px) and (max-width: 1440px) {
 
 .perfume-image{
     width: 245px;
