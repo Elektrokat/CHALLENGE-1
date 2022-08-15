@@ -100,7 +100,7 @@ svg{
     font-size: 11px; 
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     display: flex;
 }
 
@@ -128,7 +128,6 @@ svg{
         padding: 10px;
         width: 100%;
         height: 100vh;
-        height: auto;
         display: block;
     }
 
@@ -161,6 +160,13 @@ svg{
     svg{
         position: absolute;
         left: 30%;
+    }
+
+    .attribution{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px; 
+        position: absolute;
+        bottom: 0;
     }
 }
 
